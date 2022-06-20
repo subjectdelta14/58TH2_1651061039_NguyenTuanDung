@@ -1,0 +1,70 @@
+{
+  "name": "ant2",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 9000",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@k90mirzaei/vue-toast": "file:node_modules/@k90mirzaei/vue-toast",
+    "@soldeplata/popper-vue": "^1.0.4",
+    "@tinymce/tinymce-vue": "^4.0.0",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "core-js": "^3.6.5",
+    "jquery": "^3.6.0",
+    "vee-validate": "^3.4.5",
+    "vue": "^3.0.0",
+    "vue-axios": "^3.2.4",
+    "vue-notification": "^1.3.20",
+    "vue-router": "^4.0.0-0",
+    "vue-upload-drop-images": "^1.0.4",
+    "vue-upload-multiple-image": "^1.1.6",
+    "vue2-editor": "^2.10.2",
+    "vuelidate": "^0.7.6",
+    "vuex": "^4.0.0-0",
+    "vuex-toast": "^0.1.3",
+    "vux-uploader-component": "^1.0.24"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "css-loader": "5.2.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.0.0",
+    "less-loader": "8.0.0",
+    "prettier": "^2.2.1",
+    "style-loader": "2.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended",
+      "@vue/prettier"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
